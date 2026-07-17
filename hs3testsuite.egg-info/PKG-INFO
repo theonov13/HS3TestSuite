@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: hs3testsuite
+Version: 0.1.0
+Summary: HS3 backend conformance test suite
+Requires-Python: >=3.11
+Requires-Dist: jsonschema>=4
+Requires-Dist: pyhs3
+Requires-Dist: numpy
+Requires-Dist: root

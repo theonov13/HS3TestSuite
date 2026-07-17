@@ -7,8 +7,12 @@ name = "hs3testsuite"
 version = "0.1.0"
 description = "HS3 backend conformance test suite"
 requires-python = ">=3.11"
-dependencies = ["jsonschema>=4"]
+dependencies = ["jsonschema>=4","pyhs3","numpy","root"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
+
+[tool.setuptools]
+py-modules = []
+
