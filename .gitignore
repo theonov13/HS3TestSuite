@@ -1,6 +1,7 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+*.egg 
 
 # Local-only scripts used to regenerate frozen HS3 fixtures.
 # These are intentionally not part of the public test-suite repository.
